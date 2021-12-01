@@ -1,0 +1,6 @@
+h2>Incluir Tarefas</h2>
+<div>
+  <input #title type="text"/>
+  <button (click)="this.tasks.add(title.value); title.value='';">+</button>
+</div>
+
